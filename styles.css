@@ -27,6 +27,7 @@ h1{
 }
 .tab {
 margin: 1vh;
+margin-top: 1.5vh;
 margin-bottom: 0;
   overflow: hidden;
   border: 1px solid #ccc;
@@ -75,21 +76,24 @@ margin-bottom: 0;
 }
 
 footer{
-	font-size: 1vh;
+	font-size: 1.2vh;
 	color: white;
 	margin: 0;
 	padding: 2vh;
 	margin-top: auto;
 	background-color: rgba(50, 50, 50,1.0);
-	height: 25vh;
-}
-.site-footer{
-	float: right;
+	height: 10vh;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
 
-
-
+.grid-item {
+  text-align: right;
+}
 
 
 
